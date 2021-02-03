@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+  padding: 0;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  background-color: #121212;
+  color:white;
+  height:75px;
+  width:100%;
+  text-align: center;
+}
+h1{
+  transform: translateY(50%);
+
+}
+body{
+  background-image: url("school.jpg");
+  background-repeat: no-repeat;
+  height:100%;
+  background-size: cover;
+}
+.container{
+  position:relative;
+  top: 200px;
+  left: 100px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+
+}
+
+.form-div{
+  width: 300px;
+  height: 300px;
+  background-color: rgba(1, 41, 150, 0.5);
+  text-align: center;
+}
+
+.table-div{
+  height:400px;
+  width:500px;
+  background-color: rgba(1, 41, 150, 0.5);
+}
+label{
+  margin-top: 50px;
+  color:white;
+}
+input{
+  margin-bottom: 20px;
+  display: block;
+  margin-left: 15%;
+  width: 220px;
+  height: 30px;
+  border-radius: 5px;
+}
+#submit-button{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-left: 5%;
+  width: 220px;
+  padding:5px;
+}
+select{
+  margin-bottom: 20px;
+  display: block;
+  margin-left: 15%;
+  width: 220px;
+  height: 30px;
+  border-radius: 5px;
+}
+table{
+  margin-left:5%;
+  margin-top: 30px;
+}
+th{
+  color: white;
+  background-color: #121212;
+  height: 40px;
+}
+td{
+  color: white;
+  text-align: center;
+  background-color: #3b3535;
+  height: 30px;
+}
